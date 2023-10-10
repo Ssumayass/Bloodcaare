@@ -1,0 +1,227 @@
+@import url('https://d3dnwnveix5428.cloudfront.net/eyJrZXkiOiJzdG9yZV84NmFmYjlkNS0yMjY4LTRmOGItYTc2Mi1iZDRlY2I1ZGZkNzlcL2ltYWdlc1wvY2ZMWTlGcXg5eGRnRnJaMTY2MzM0NzA0MS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo4MDAsImhlaWdodCI6ODAwLCJmaXQiOiJpbnNpZGUifX19');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    background-color: #292929;
+}
+.logo{
+    margin-left: 45px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 30px;
+}
+header{
+    width: 100vw;
+    height: 70vh;
+    background-image: url('https://d3dnwnveix5428.cloudfront.net/eyJrZXkiOiJzdG9yZV84NmFmYjlkNS0yMjY4LTRmOGItYTc2Mi1iZDRlY2I1ZGZkNzlcL2ltYWdlc1wvY2ZMWTlGcXg5eGRnRnJaMTY2MzM0NzA0MS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo4MDAsImhlaWdodCI6ODAwLCJmaXQiOiJpbnNpZGUifX19');
+    background-position: bottom;
+    background-size: cover;
+    display: subgrid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Stil för innehållet i header */
+.header-content {
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.header-content h2 {
+    font-size: 4vmin;
+    font-family: Verdana, sans-serif;
+}
+
+.lead {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background: #767475;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1 {
+    font-size: 12vmin;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ruta{
+    font-size: 3vmin;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.tn{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding: 8px 15px;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.ctn {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding: 8px 20px;
+    border-radius: 3px; /* Gör knappen fyrkantig */
+    color: whitesmoke;
+    background-color: #1d59d3;
+}
+
+.menu-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+}
+
+/* Övrig CSS för sektionen, titeln och evenemangen */
+/* ... (behåll övrig CSS oförändrad) */
+
+
+/* Övrig CSS för sektionen, titeln och evenemangen */
+/* ... (behåll övrig CSS oförändrad) */
+
+
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: #000000;
+}
+
+.event-image {
+    max-width: 300px; /* Begränsa bildens bredd till det tillgängliga utrymmet */
+    height: 300px; /* Bevara bildens proportioner */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.col {
+    flex: 1;
+    padding: 0 10px; /* Justera avståndet mellan kolumnerna om det behövs */
+}
+
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.event .row{
+    margin-top: 50px;
+}
+
+h4{
+    font-size: 3vmin;
+    color: #000000;
+    margin: 0px;
+}
+
+P{
+    color: #000000;
+    padding: 0px;
+}
+
+.event .ctn{
+    margin-top: 30px;
+}
+
+
+/*KNAPP*/
+
+
+.boxContainer{
+    margin: auto;
+    margin-top: 20%;
+    position: relative;
+    width: 300px;
+    height: 42px;
+    border: 4px solid #bdbbbbd7;
+    padding: 0px 10px;
+    border-radius: 50px;
+}
+
+.elementsContainer{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.search{
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 0px 5px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: "Nunito";
+    color: #bdbbbbd7;
+    font-weight: 500;
+}
+
+.search:focus{
+    outline: none;
+}
+.material-icons{
+    font-size: 26;
+    color: #bdbbbbd7;
+}
+
+.material-symbols-outlined{
+    color:#000000;
+}
+
