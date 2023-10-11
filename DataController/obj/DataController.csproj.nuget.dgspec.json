@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ssuma\\source\\repos\\Bloodcaare\\bloodcaare.csproj": {}
+    "C:\\Users\\ssuma\\source\\repos\\Bloodcaare\\DataController\\DataController.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ssuma\\source\\repos\\Bloodcaare\\bloodcaare.csproj": {
+    "C:\\Users\\ssuma\\source\\repos\\Bloodcaare\\DataController\\DataController.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ssuma\\source\\repos\\Bloodcaare\\bloodcaare.csproj",
-        "projectName": "bloodcaare",
-        "projectPath": "C:\\Users\\ssuma\\source\\repos\\Bloodcaare\\bloodcaare.csproj",
+        "projectUniqueName": "C:\\Users\\ssuma\\source\\repos\\Bloodcaare\\DataController\\DataController.csproj",
+        "projectName": "DataController",
+        "projectPath": "C:\\Users\\ssuma\\source\\repos\\Bloodcaare\\DataController\\DataController.csproj",
         "packagesPath": "C:\\Users\\ssuma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ssuma\\source\\repos\\Bloodcaare\\obj\\",
+        "outputPath": "C:\\Users\\ssuma\\source\\repos\\Bloodcaare\\DataController\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ssuma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,13 +40,13 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Newtonsoft.Json": {
+            "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[13.0.3, )"
+              "version": "[7.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[6.4.0, )"
             }
           },
           "imports": [

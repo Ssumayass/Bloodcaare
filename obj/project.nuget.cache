@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "XJiHTuWe8S6u/6MTjkkhRK7rAdRE3M1m125CpGRu4lqiXs5Npwg9BtAtw5TGsxB5yt+s86/maJRiyNptaSqjxA==",
+  "dgSpecHash": "MLj+2Urn2DNRDPOOHpSeQzwDdhPo/GUXjm9hyw+fTlK4K1R3UtnQSCOmhZ3+bcx4i0GgFBdMk7DcWDU1NWwqlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ssuma\\source\\repos\\bloodcaare\\bloodcaare.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\ssuma\\source\\repos\\Bloodcaare\\bloodcaare.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ssuma\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\ssuma\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ssuma\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\ssuma\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\ssuma\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\ssuma\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\ssuma\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
