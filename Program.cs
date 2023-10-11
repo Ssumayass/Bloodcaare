@@ -17,6 +17,9 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    //var getRequest = new GetRequest();
+    //var searchResponse = getRequest.search();
+    //divtitle.text = searchResponse;
 }
 
 app.UseHttpsRedirection();
