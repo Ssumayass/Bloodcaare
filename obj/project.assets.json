@@ -481,24 +481,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\intis\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ssuma\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\intis\\OneDrive\\Dokument\\Praktik\\Bloodcaare-1\\bloodcaare.csproj",
+      "projectUniqueName": "C:\\Users\\ssuma\\source\\repos\\Bloodcaare\\bloodcaare.csproj",
       "projectName": "bloodcaare",
-      "projectPath": "C:\\Users\\intis\\OneDrive\\Dokument\\Praktik\\Bloodcaare-1\\bloodcaare.csproj",
-      "packagesPath": "C:\\Users\\intis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\intis\\OneDrive\\Dokument\\Praktik\\Bloodcaare-1\\obj\\",
+      "projectPath": "C:\\Users\\ssuma\\source\\repos\\Bloodcaare\\bloodcaare.csproj",
+      "packagesPath": "C:\\Users\\ssuma\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ssuma\\source\\repos\\Bloodcaare\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\intis\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\ssuma\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -506,7 +501,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
